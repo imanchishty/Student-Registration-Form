@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <fieldset>
+    
+    <div class="container">
+        <legend><header>Student Registration Form</header></legend>
+         
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Information</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name"  maxlength="50" required>
+                        </div>
+                         <div class="input-field">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="Enter your email" required>
+                        </div>
+                         <div class="input-field">
+                            <label>Phone Number</label>
+                            <input type="number" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter your date of birth" required>
+                        </div>
+                         <div class="input-field">
+                            <label>ID Type</label>
+                            <input type="text" placeholder="Enter ID type(CNIC/National ID)" required>
+                        </div>
+                        <div class="input-field">
+                            <label>ID Number</label>
+                            <input type="number" placeholder="Enter ID number" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Issued Date</label>
+                            <input type="date" placeholder="Enter issue date" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Expiry Date</label>
+                            <input type="date" placeholder="Enter expiry date" required>
+                        </div>
+                         <div class="input-field">
+                            <label>Gender</label>
+                            <input type="radio" name="Gender" > Male 
+                            <input type="radio" name="Gender" > Female 
+                            
+                        </div>
+                         <button class="nextBtn">
+                         <span class="btnText">Next</span>
+                         <i class="uil uil-naigatior"></i>
+                         </button>
+                    </div>
+
+
+</fieldset>
+<fieldset>
+                </div>
+                <div class="form second">
+                <div class="Academic Information">
+                    <legend>
+                    <span class="title">Academic Information</span>
+                    </legend>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>University Name</label>
+                            <input type="text" placeholder="Enter your university name" maxlength="50" required>
+                        </div>
+                         <div class="input-field">
+                            <label>Degree Program</label>
+                            <input type="text" placeholder="Enter your degree program" required>
+                        </div>
+                         <div class="input-field">
+                            <label>Current Semester</label>
+                            <input type="number" placeholder="Enter your current semester" required>
+                        </div>
+                         <div class="input-field">
+                            <label>CGPA</label>
+                            <input type="number" placeholder="Enter your CGPA" required>
+                        </div>
+                         <div class="input-field">
+                            <label>Skills</label>
+                            <input type="checkbox" name="Skills" > HTML
+                             <input type="checkbox" name="Skills" >CSS
+                              <input type="checkbox" name="Skills" > JavaScript
+                               <input type="checkbox" name="Skills"> PHP 
+                                <input type="checkbox" name="Skills"> Wordpress
+                        </div>
+                         <button class="backBtn">
+                         <span class="btnText">Back</span>
+                         <i class="uil uil-naigatior"></i>
+                         </button>
+                         <button class="nextBtn">
+                         <span class="btnText">Next</span>
+                         <i class="uil uil-naigatior"></i>
+                         </button>
+                    </div>
+                </div>
+                 </div>
+              </div>
+            </fieldset>
+              <fieldset>
+                   <div class="form third">
+                <div class="Additional Information">
+                    <legend>
+                    <span class="title">Additional Information</span>
+                    </legend>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>City</label>
+                            <input type="text" placeholder="Enter your city name" required>
+                        </div>
+                         <div class="input-field">
+                            <label>Country</label>
+                            <input type="text" placeholder="Enter your country name" required>
+                        </div>
+                         <div class="input-field">
+                           <label>Profile Picture</label>
+                            <input type="file" id="file-input" accept="image/png, image/jpne" onchange="preview()"multiple>
+                            <label for="file-input" id="button">
+                                <i class="fa fa-upload">Upload Image</i> 
+                            </label>
+                            <p id="number-of-img">No image selected</p>
+                        </div>
+                         <div class="input-field">
+                            <label for="text">Short Bio</label>
+                            <br>
+                            <textarea name="" id="text" cols="30" rows="10"></textarea>
+                           
+                        </div>
+                         <button class="backBtn">
+                         <span class="btnText">Back</span>
+                         <i class="uil uil-naigatior"></i>
+                         </button>
+                       <button class="nextBtn">
+                       <span class="btnText">Next</span>
+                       <i class="uil uil-naigatior"></i>
+                       </button>
+
+                    </div>
+                </div>
+                </fieldset>
+                <fieldset>
+                <div class="form fourth">
+                <div class="Account Information">
+                    <legend>
+                    <span class="title">Account Information</span>
+                    </legend>
+                    <div class="fields">
+                        <div class="input-field">
+                            <form action="#">
+                            <label>User Name</label>
+                            <input type="text" placeholder="Enter user name" required>
+                        
+                        </div>
+                         <div class="input-field">
+                            <label>Password</label>
+                            <input type="password" placeholder="Enter your password" required>
+                        </div>
+                         <div class="input-field">
+                            <label>Confirm Password</label>
+                            <input type="password" placeholder="confirm your password" required>
+                        <button type="reset" class="btn btn-primary">Reset</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </fieldset>
+                        </form>
+                        </div>
+                          
+                    </div>
+                    </div>
+                </div>
+            </div>     
+        </form>
+    </div>
+</body>
+</html>
