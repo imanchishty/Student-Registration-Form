@@ -19,14 +19,19 @@ Features Implemented:
 9- Icons integrated using Font Awesome and Unicons
 
 HTML Elements Used:
-<form>, <fieldset>, <legend>
-<div>, <span>, <label>
+<form>
+<fieldset> 
+<legend>
+<div>
+<span>
+<label>
 <input> — types: text, email, number, date, radio, checkbox, file, password
 <textarea>
 <button> — types: button, reset, submit
 <link> — for external icon libraries (Font Awesome, Unicons)
 <i> — for displaying icons
-<p>, <header>
+<p>
+<header>
 
 How to Run the Project:
 In VScode, press on "Go-Live" button at the bottom right corner. The project will run.
